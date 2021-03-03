@@ -7,13 +7,13 @@ class ClassroomsService {
     return await dbContext.Classrooms.find(query)
   }
 
-  async findById(id) {
-    // let classroom = await dbContext.Classrooms.findById(id);
-    // if (!classroom) {
-    //   throw new BadRequest("Invalid Id");
-    // }
-    // return classroom;
-  }
+  // async findById(id) {
+  //   let classroom = await dbContext.Classrooms.findById(id);
+  //   if (!classroom) {
+  //     throw new BadRequest("Invalid Id");
+  //   }
+  //   return classroom
+  // }
 
   async create(data) {
     return await dbContext.Classrooms.create(data)
